@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
         <Link className="navbar-brand" href="/">
-          Recat User
+          Geek Trust
         </Link>
         <button
           className="navbar-toggler"
@@ -26,7 +26,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink className="nav-link" exact to="/about">
                 About
               </NavLink>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <NavLink className="nav-link" exact to="/contact">
                 Contact
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
 
