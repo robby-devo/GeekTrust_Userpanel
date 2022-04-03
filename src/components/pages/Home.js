@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+// import " ./Home.css";
 
 const Home = () => {
   const [users, setUser] = useState([]);
   useEffect(() => {
-    console.log("Kaisa hai bro");
+    // console.log("Kaisa hai bro");
     loadUsers();
   }, []);
   const loadUsers = async () => {
@@ -40,13 +41,14 @@ const Home = () => {
                 <td>{user.role}</td>
                 <td>
                   <Link
+                    style={{ margin: "10px" }}
                     class="btn btn-outline-primary mr-2"
                     to={`/users/edit/${user.id}`}
                   >
                     Edit
                   </Link>
                   <Link
-                    class="btn btn-danger"
+                    class="btn btn-danger mr-2"
                     onClick={() => deleteUser(user.id)}
                   >
                     Delete

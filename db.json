@@ -1,20 +1,8 @@
 {
   "users": [
     {
-      "id": "4",
-      "name": "Caterina Binotto",
-      "email": "caterina@mailinator.com",
-      "role": "member"
-    },
-    {
-      "id": "5",
-      "name": "Chetan Kumar",
-      "email": "chetan@mailinator.com",
-      "role": "member"
-    },
-    {
       "id": "6",
-      "name": "Jim McClain",
+      "name": "Jim McClain ranan",
       "email": "jim@mailinator.com",
       "role": "member"
     },
